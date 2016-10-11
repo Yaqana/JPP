@@ -1,6 +1,5 @@
 int y = 1;
 
-
 int main() {
   while(y < 5) {
     y++;
