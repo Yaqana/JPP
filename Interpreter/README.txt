@@ -1,4 +1,4 @@
-This is an interpreter for a self-created language. It was build during the Programming Languages and Paradigms course. It was implemented using Haskell programming language. The parser was generated using BNF Converter.
+This is an interpreter for a C-based imperative programing language. It was build during the Programming Languages and Paradigms course. It was implemented using Haskell programming language. The parser was generated using BNF Converter.
 
 To use interpreter:
 1. make
