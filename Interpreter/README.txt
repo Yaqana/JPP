@@ -10,10 +10,9 @@ The program should define a no-argument function “main”, which is invoked wh
 The language supports:
 - functions with parameters passed by variable
 - recursion
-- two pre-defined types (int, bool)
-- pre-defined “print” procedure
-- a “for” loop
-- C-type operators (++, +=, etc.)
 - variable shadowing with static binding
+- two pre-defined types (int, bool)
+- a pre-defined “print” procedure
+- C-type operators (++, +=, etc.)
 - functions as parameters to functions
 - anonymous functions
