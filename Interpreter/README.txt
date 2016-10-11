@@ -5,7 +5,7 @@ To use interpreter:
 2. ghc --make interpreter.hs
 3. ./interpreter <program_path>
 
-The program should define a no-argument function “main”, which is invoked when running a program. For sample code, see good/bad directory. For the language grammar, check "mich.cf" file.
+The program should define a no-argument function “main”, which is invoked when running a program. For a sample code, see a good/bad directory. For the language grammar, check "mich.cf" file.
 
 The language supports:
 - functions with parameters passed by variable
