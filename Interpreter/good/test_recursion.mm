@@ -1,11 +1,11 @@
 int y;
 
-int silnia(int x) {
+int factorial(int x) {
   int s;
   int ret;
   if (x!=0) {
     s = x - 1;
-    ret = x * silnia(s);
+    ret = x * factorial(s);
   } else {
     ret = 1;
   }
@@ -14,6 +14,6 @@ int silnia(int x) {
 
 int main() {
   int e = 6;
-  y = silnia(e);
+  y = factorial(e);
   print(y);
 }
