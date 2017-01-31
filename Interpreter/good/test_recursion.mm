@@ -3,7 +3,7 @@ int y;
 int factorial(int x) {
   int s;
   int ret;
-  if (x!=0) {
+  if (x != 0) {
     s = x - 1;
     ret = x * factorial(s);
   } else {
