@@ -5,7 +5,7 @@ int f() {
     int silnia(int x) {
       int s;
       int ret;
-      if (x!=0) {
+      if (x != 0) {
         s = x - 1;
         ret = x * silnia(s);
       } else {
@@ -18,7 +18,8 @@ int f() {
   }
   return h();
 }
+
 int main() {
-  y=f();
-  print(y==24);
+  y = f();
+  print(y == 24);
 }
